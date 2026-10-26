@@ -1,0 +1,32 @@
+﻿# Visual Studio
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+
+# Local settings and secrets
+**/appsettings.json
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/secrets.json
+**/.env
+**/.env.*
+
+# Private certificates and keys
+*.pfx
+*.p12
+*.key
+
+# Database backups
+*.dump
+*.bak
+*.sql
+
+# Frontend dependencies and build output
+**/node_modules/
+**/dist/
+**/coverage/
+
+# Logs
+*.log

@@ -1,0 +1,28 @@
+﻿# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Local configuration and secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+.env
+.env.*
+
+# Certificates and private keys
+*.pfx
+*.p12
+*.key
+
+# Database backups
+*.dump
+*.bak
+*.sql
+
+# Local settings that may contain secrets
+appsettings.json
